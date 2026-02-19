@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c1af25523ec5bf408a9e65099bb31cf, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: Assembly-CSharp::SuperBanana.GameConfig
+  timerSeconds: 120
+  basePointsPerMatch: 10
+  comboBonusPerStep: 10
+  matchesToBreakChain: 2
+  chainBreakSoundDelay: 0.42
+  soundMatch: {fileID: 8300000, guid: 97409d26548f19841b766d33003624a9, type: 3}
+  soundChainTap: {fileID: 8300000, guid: b0855199bb01ef2468455476315cec43, type: 3}
+  soundChainBreak: {fileID: 8300000, guid: c617d682cf9dbd747b2feed6c1ff3b2e, type: 3}
+  soundPickup: {fileID: 8300000, guid: 32d4b1811dda14a6cb9e059ee8ad17d2, type: 3}
+  soundPlace: {fileID: 8300000, guid: 32d4b1811dda14a6cb9e059ee8ad17d2, type: 3}
+  matchVfxPrefab: {fileID: 3362580559453302801, guid: 2fc8a21e53a556f46b2dfdb6e4932971, type: 3}
+  chainBreakVfxPrefab: {fileID: 9147674344766283053, guid: e0de4e24d11982e49b34355ff1def60a, type: 3}
+  defaultOutlineThickness: 1.05
+  defaultOutlineColor: {r: 1, g: 1, b: 1, a: 1}
